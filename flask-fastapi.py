@@ -1,3 +1,13 @@
+## Installation 
+
+pip install flask
+
+## Installation for FastAPI 
+
+pip install fastapi uvicorn
+
+
+
 from flask import request
 
 @app.route("/", methods=["GET"])
