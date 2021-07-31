@@ -1,6 +1,7 @@
 from flask import request
 
 @app.route("/", methods=["GET"])
+@app.route("/", methods=["POST"])
 
 def home():
     return {"Hello": "GET"}
