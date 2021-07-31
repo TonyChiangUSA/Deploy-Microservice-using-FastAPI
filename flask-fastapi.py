@@ -10,6 +10,7 @@ def home():
  ### Fast API 
 @app.get("/")
 @app.post("/")
+
 @app.delete("/")
 @app.patch("/")
 
